@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Light grey background for the entire body */
+}
+
+.FormContainer {
+  background-color:  #e7c072; /* White background for the form container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for elevation effect */
+}
+
+.Form {
+  width: 100%; /* Full width form */
+}
+
+.SubmitButton {
+  margin: 24px 0 16px; /* Adjusted margin for the submit button */
+}
+
+.Link {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  color: #3f51b5; /* Primary color for the link */
+  text-decoration: none;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+/* Hover effect for the card */
+.hover-card {
+  transition: transform 0.3s;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+}
+
+/* Styles for the view button */
+.view-button {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.view-button:hover {
+  background-color: orange;
+  color: white;
+}

@@ -1,0 +1,60 @@
+
+
+.hover-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .card-media {
+    border: 2px solid black;
+  }
+  
+  
+  .hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-container {
+    border: 2px solid #141313;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: orange; /* Added background color */
+  }
+  
+  .card-media {
+    object-fit: cover;
+    border: 5px solid rgb(243, 187, 108); /* Added image border */
+  }
+  
+/* Rental.css */
+
+/* General styles */
+
+/* Card hover effect */
+.hover-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Card container */
+.card-container {
+  margin-bottom: 20px;
+}
+
+/* Card media */
+.card-media {
+  object-fit: cover;
+}
+
+/* Comment box and button alignment */
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+button {
+  background-color: black;
+  margin-top: 25px; /* Adjust margin as needed */
+}

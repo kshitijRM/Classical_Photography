@@ -1,0 +1,80 @@
+/* About.css */
+.container{
+  background-color: orange;
+  height: 100%;
+}
+
+.text {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: black; /* Set text color to black */
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+  }
+  
+  .gallery-carousel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .gallery-item {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  
+  .view-gallery-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .text {
+    color: #4a4a4a; /* Default text color */
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: flex-end; /* Use flex-end for alignment to the right */
+    margin-top: 20px;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 10px; /* Adds 10px margin to both left and right */
+  }
+  
+  .gallery-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    width: calc(25% - 16px);
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .view-gallery-button-container {
+    text-align: center;
+    margin-top: 16px;
+  }
+  

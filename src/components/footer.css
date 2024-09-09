@@ -1,0 +1,113 @@
+/* footer.css */
+.site-footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  height: 100%;
+}
+
+.footer-section {
+  margin-bottom: 50px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section .newsletter form {
+  display: flex;
+  justify-content: left;
+}
+
+.footer-section .newsletter input {
+  padding: 10px;
+  border: 2cap;
+  border-radius: 5px 0 0 5px;
+}
+
+.footer-section .newsletter button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: orange;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-section .newsletter button:hover {
+  background-color: darkorange;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.footer-bottom h3 {
+  margin: 0;
+}
+.contents{
+  display: flex;
+  gap: 70px;
+}
+.contact{
+  justify-self: left;
+  margin-left: 20px;
+  padding: 40px;
+  border:5px orange solid;
+  border-radius: 20px 0px;
+}
+.social-media{
+  justify-self: center;
+  padding: 20px;
+  border:5px orange solid;
+  border-radius: 20px 0px;
+}
+.map{
+  justify-self:end;
+  padding: 20px;
+  border:5px orange solid;
+  border-radius: 20px 0px;
+  height: 41vh;
+}
+.add-map{
+  height:100%; 
+
+}
+
+@media (max-width: 1000px) {
+  .contents{
+    display: flex;
+    margin-left:1rem;
+    flex-wrap: wrap;
+  }
+  .map{
+    margin-left: 1rem;
+  }
+  .social-media{
+    margin-left: 1rem;
+  }
+  .site-footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    height: 100%;
+  }
+}

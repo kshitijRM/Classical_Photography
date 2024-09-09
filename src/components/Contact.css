@@ -1,0 +1,117 @@
+/* Contact.css */
+.main{
+    display: flex;
+    height: 100%;    
+}
+.contact-container {
+    min-width: 500px;
+    margin: 20px ;
+    padding: 20px;
+    background-color: #e7c072;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-info p{
+    font-size: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    font-size: 18px;
+    background-color: #ff8800;
+}
+
+.contact-info {
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.social-media a {
+    display: block;
+    margin: 5px 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+.links a {
+    display: block;
+    margin: 5px 0;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.social-media a:hover {
+    color: #037dff;
+}
+
+.social-media a svg {
+    margin-right: 8px;
+}
+
+@media (max-width: 700px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;    
+    }
+    .contact-container {
+        min-width: 200px;
+        margin: 20px ;
+        padding: 20px;
+        background-color: #e7c072;
+        border-radius: 8px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+}

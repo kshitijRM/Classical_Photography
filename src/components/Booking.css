@@ -1,0 +1,94 @@
+/* src/components/BookingForm.css */
+
+.booking-form {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color:#e7c072;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-form label {
+    margin-bottom: 8px;
+  }
+  
+  .booking-form input,
+  .booking-form textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 25VW;
+  }
+
+  .booking-form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: orange;
+  }
+  .booking-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(233, 26, 26); /* Add background color */
+    color: white; /* Ensure text is readable on black background */
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  
+  .booking-form label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .booking-form input,
+  .booking-form textarea,
+  .booking-form select,
+  .card-element {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .confirmation {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .confirmation p {
+    margin: 10px 0;
+  }
+  @media (max-width: 700px) {
+}
